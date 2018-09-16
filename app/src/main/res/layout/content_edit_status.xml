@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ui.activity.EditNameActivity"
+    tools:showIn="@layout/activity_edit_name">
+
+    <LinearLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:id="@+id/linearLayout">
+
+
+        <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+            android:id="@+id/emojicon_edit_text"
+            android:layout_width="278dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:imeOptions="actionSend"
+            android:inputType="text" />
+
+
+        <ImageView
+            android:id="@+id/smiley_btn"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="4dp"
+            android:src="@mipmap/smiley"
+            />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/okayBtnStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:background="@color/bg_bubble_self"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="68dp" />
+
+</RelativeLayout>

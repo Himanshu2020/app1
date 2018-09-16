@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1082781539578",
+    "firebase_url": "https://m3-app-2b23b.firebaseio.com",
+    "project_id": "m3-app-2b23b",
+    "storage_bucket": "m3-app-2b23b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082781539578:android:b9eebe2c9b5d08ff",
+        "android_client_info": {
+          "package_name": "com.musipo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1082781539578-gr6vrvgndbg3iaeun31vc2jnk62jve36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqHKofajKWg4IqN0QSQZkuSu7DcCex6pA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

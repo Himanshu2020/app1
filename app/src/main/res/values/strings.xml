@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MusiPo</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="prompt_mobile_number">Mobile Number</string>
+    <string name="prompt_name">Name</string>
+    <string name="action_next">Next</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_play_list">Play List</string>
+    <string name="title_activity_music_status">Status </string>
+    <string name="title_activity_group">Group Chat</string>
+</resources>

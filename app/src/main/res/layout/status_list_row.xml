@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <!--  ListRow Left sied Thumbnail image -->
+    <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="3dip"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="65.0dip"
+            android:layout_height="65.0dip"
+            android:scaleType="fitCenter"
+            android:src="@drawable/profile"/>
+
+    </LinearLayout>
+
+    <!-- Title Of Song-->
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Rihanna Love the way lie"
+        android:typeface="sans"
+        android:textColor="#444444"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+    <!-- Artist Name -->
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:textColor="#343434"
+        android:textSize="15dip"
+        android:layout_marginTop="5dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Just gona stand there and ..." />
+
+    <ImageView
+        android:id="@+id/playSongImg"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:gravity="center"
+        android:textSize="10dp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/timestamp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:text="5"
+        android:src="@drawable/ic_play_song1"
+        />
+
+</RelativeLayout>
